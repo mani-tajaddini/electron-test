@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/electron ."
+    "start": "./node_modules/.bin/electron .",
+    "prepublishOnly": "npm-version-bump"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
